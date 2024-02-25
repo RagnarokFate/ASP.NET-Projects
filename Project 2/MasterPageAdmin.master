@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TipTop Photography</title>
+       <style type="text/css">
+           .auto-style1 {
+               width: 100%;
+           }
+           .auto-style2 {
+               font-size: 48pt;
+               text-decoration: underline;
+           }
+           .auto-style3 {
+               width: 12px;
+           }
+           .auto-style4 {
+               width: 300px;
+               height: 222px;
+           }
+           .auto-style5 {
+               font-size: x-large;
+               color: #FFFFFF;
+           }
+           .auto-style6 {
+               height: 20px;
+           }
+       </style>
+    </head>
+    <body background="Imgs/AdminCover.jpg" />
+        <form id="form1" runat="server">
+
+       <br />
+            <table class="auto-style1">
+            <tr>
+                <td class="auto-style2"><strong><em>TipTop Photography</em></strong></td>
+                <td class="auto-style3">
+                    <img class="auto-style4" src="Imgs/Logo%20Aug%202010%20copy%20-%20resize%20colour.jpg" /></td>
+                <td><span class="auto-style5">WeLcOme </span><strong>
+                    <asp:Label ID="Label1" runat="server" CssClass="auto-style5" Text="Label"></asp:Label>
+                    </strong></td>
+            </tr>
+        </table>
+    <br />
+
+    
+
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style6"><a href="HomeAdmin.aspx">Home</a></td>
+                <td class="auto-style6"><a href="AccountsMang.aspx">AccountsMang</a></td>
+                <td class="auto-style6"><a href="AccountSettingsAdm.aspx">AccountSettingsAdm</a></td>
+                <td class="auto-style6"><a href="Price.aspx">PriceMangement</a></td>
+                <td class="auto-style6">
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Sign Out" />
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+       <br />
+
+    <div>
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+    </div>
+    </form>
+</body>
+</html>

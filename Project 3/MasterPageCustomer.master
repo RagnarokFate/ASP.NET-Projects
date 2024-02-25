@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCustomer.master.cs" Inherits="MasterPageCustomer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+            <title>AirPlanePlusHotel</title>
+
+    </head>
+            <form id="form1" runat="server">
+    <br />
+      <table class="auto-style1">
+            <tr>
+                <td class="auto-style2">Plane PLUS Hotel</td>
+                <td><span class="auto-style2">Hey
+                    </span>
+                    <strong>
+                    <asp:Label ID="Label1" runat="server" Text="Label" CssClass="auto-style3" style="font-size: x-large; color: #CC0000"></asp:Label>
+                    </strong>
+                </td>
+            </tr>
+        </table>
+    <br />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+            <table class="auto-style3">
+                <tr>
+                    <td><a href="HomeCus.aspx">Home</a></td>
+                    <td><a href="Contact.aspx">Contact</a></td>
+                    <td><a href="ReservePlaneCus.aspx">ReservePlane</a></td>
+                    <td>
+                        <asp:imagebutton runat="server" Height="50px" ImageAlign="Middle" ImageUrl="~/photos/logout.jpg" OnClick="Unnamed1_Click" Width="150px"></asp:imagebutton>
+
+                        <br />
+                    </td>
+                </tr>
+            </table>
+    <br />
+                
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+            width: 1278px;
+        }
+        .auto-style2 {
+            font-size: x-large;
+            color: #CC0000;
+        }
+        .auto-style3 {
+            width: 100%;
+        }
+    </style>
+<body bgcolor="#CCFFCC" />
+      
+        <div>
+
+
+                    </div>
+    </form>
+</body>
+</html>

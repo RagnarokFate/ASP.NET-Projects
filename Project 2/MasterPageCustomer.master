@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCustomer.master.cs" Inherits="MasterPageCustomer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head runat="server">
+    <title>TipTop Photography</title>
+    <form id="form1" runat="server">
+    <style type="text/css">
+        body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+        .auto-style1 {
+            font-size: 48pt;
+            text-decoration: underline;
+        }
+        .auto-style2 {
+            font-size: 48pt;
+        }
+        .auto-style9 {
+            font-size: medium;
+            text-decoration: underline;
+        }
+        .auto-style10 {
+            text-decoration: underline;
+        }
+        .auto-style11 {
+            font-size: medium;
+        }
+        .auto-style12 {
+            font-size: large;
+        }
+    </style>
+    <strong>
+    <span class="auto-style2">TipTop PhotoGraphy</span><span class="auto-style1"><br />
+    <hr />
+    </span>
+        <div class="topnav">
+  <a class="active" href="HomeCustomer.aspx">Home</a>
+              <a href="ReservationCus.aspx">Reservation</a>
+  <a href="ContactUsCus.aspx">Contact</a>
+               <a href="AccountSettingsCos.aspx">Account Settings</a>
+            <asp:Button runat="server" Text="LogOut" Height="30px" OnClick="Unnamed1_Click" Width="74px" />
+             &nbsp;&nbsp;&nbsp;
+             <span>Wellcome
+    <asp:Label ID="Label1" runat="server" CssClass="auto-style12" Text="Label"></asp:Label></span>
+        
+</div>
+    <span class="auto-style9">
+        <br />
+        <br />
+    </span>
+    <span class="auto-style10">
+        <br class="auto-style11" />
+    </span>
+    <span class="auto-style1">
+            <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </span>
+    </strong>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+         </form>
+</Head>
+    <body background="Imgs/CustomerBackground.jpg" />
+        <span class="auto-style1">
+    <br />
+    </span>
+    </strong>
+    <br />
+
+<br />
+
+
+    <br />
+    
+    <div>
+
+    <br />
+    </div>
+   
+<br />
+    
+</body>
+    
+</html>

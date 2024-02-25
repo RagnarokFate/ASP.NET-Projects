@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 517px;
+        }
+        .auto-style5 {
+            text-align: left;
+        }
+        .auto-style7 {
+            width: 96px;
+            text-align: center;
+            height: 129px;
+            font-size: 20pt;
+            color: #EC0000;
+        }
+        .auto-style8 {
+            color: #FF3300;
+            font-size: 48pt;
+        }
+        .auto-style9 {
+            width: 113px;
+            height: 81px;
+            margin-top: 12px;
+            color: #EC0000;
+        }
+        .auto-style10 {
+            color: #FF0000;
+        }
+        .auto-style12 {
+            width: 96px;
+            text-align: center;
+            color: #EC0000;
+            height: 116px;
+        }
+        .auto-style13 {
+            color: #6666FF;
+        }
+        .auto-style15 {
+            color: #333300;
+        }
+        .auto-style16 {
+            color: #EC0000;
+        }
+    </style>
+</head>
+<body background="images/VistorWallPaper.jpg" style="font-size: xx-large">
+    
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td colspan="2" style="text-align: center" class="auto-style8"><marquee>MWSKY</marquee></td>
+            </tr>
+            <tr>
+                <td class="auto-style5" rowspan="3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style7"><span class="auto-style13"><a href="home.aspx"><span class="auto-style16">home </span></a></span><a href="home.aspx" style="color: #FF0000"> <img alt="" class="auto-style9" src="images/home.png" /></a><br class="auto-style16" /> 
+                   </td>
+            </tr>
+            <tr>
+                <td class="auto-style12"><span class="auto-style10"><span class="auto-style15"><a href="login.aspx" style="font-size: 20pt; "><span class="auto-style16">login</span></a></span><a href="login.aspx" style="font-size: 20pt; color: #FF0000;"><img alt="" class="auto-style9" src="images/login.png" /></a></span><span class="auto-style16"><br />
+                    <br />
+                    </span>
+                    </td>
+            </tr>
+            <tr>
+                <td class="auto-style9"><a href="contact%20us.aspx" style="font-size: 20pt"><span class="auto-style16">contact us</span><span class="auto-style10"><img alt="" class="auto-style9" src="images/old-typical-phone.png" /></span></a></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCos.master.cs" Inherits="MasterPageCos" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MWSKY Offical Website</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 23px;
+        }
+        .auto-style3 {
+            font-size: large;
+        }
+        .auto-style4 {
+            height: 23px;
+            width: 89px;
+        }
+    </style>
+</head>
+<body bgcolor="#33CCFF">
+    <form id="form1" runat="server">
+    <div>
+
+
+        &nbsp;<br />
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style4">
+                    <div id="mySidenav" class="sidenav">
+  <a href="HomeCos.aspx" id="about">Home</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="MathProblems.aspx" id="projects">MathProblem? </a>
+  <a href="CustomerAccountSettings.aspx" id="contact">CustomerAccountSettings</a>
+</div>
+                </td>
+                <td class="auto-style2">MWSKY Sama Krayem </td>
+                <td class="auto-style2"><span class="auto-style3">Welcome </span>
+                    <asp:Label ID="Label1" runat="server" CssClass="auto-style3" style="font-weight: 700; text-decoration: underline" Text="Label"></asp:Label>
+                </td>
+                <td class="auto-style2">
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="SignOut" />
+                </td>
+            </tr>
+        </table>
+        <br />
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

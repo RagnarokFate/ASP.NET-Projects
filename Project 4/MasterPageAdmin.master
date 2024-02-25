@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <form id="form1" runat="server">
+    <table class="auto-style1">
+        <tr>
+            <td><span class="auto-style2">MWSKY</span></td>
+            <td>Welcome
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            </td>
+            <td>
+   
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="SignOut" />
+            </td>
+        </tr>
+    </table>
+&nbsp;<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>MWSKY</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            font-size: xx-large;
+        }
+    </style>
+  
+
+    
+       
+    
+         <table class="auto-style1">
+        <tr>
+            <td><a href="HomeAdmin.aspx">Home</a></td>
+            <td colspan="1" rowspan="5">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="MathProbByCustmer.aspx">MathProbByCustmer</a></td>
+           
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            
+        </tr>
+        <tr>
+            <td>
+   
+                &nbsp;</td>
+            
+        </tr>
+    </table>
+    
+     </form>
+    </head>
+    <body  background="images/q2.png" />
+    <div>
+        
+    </div>
+    
+</body>
+    
+</html>

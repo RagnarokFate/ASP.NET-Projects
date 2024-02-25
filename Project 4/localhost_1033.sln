@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sama(1)", "http://localhost:3308", "{D5C786AA-F498-4CC7-BA74-32384924CC1E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3308"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\SamaProj\Sama\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3308\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3308"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\SamaProj\Sama\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3308\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\Desktop\SamaProj\Sama\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SamaService(2)", "http://localhost:3330", "{57EEF69A-26D3-4886-9651-4C56A479F0E9}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3330"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\SamaProj\SamaService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3330\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3330"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\SamaProj\SamaService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3330\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\Desktop\SamaProj\SamaService\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5C786AA-F498-4CC7-BA74-32384924CC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C786AA-F498-4CC7-BA74-32384924CC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EEF69A-26D3-4886-9651-4C56A479F0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EEF69A-26D3-4886-9651-4C56A479F0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

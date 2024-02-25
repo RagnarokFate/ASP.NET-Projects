@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+            <form id="form1" runat="server">
+
+<head runat="server">
+
+     <style type="text/css">
+         
+         .auto-style2 {
+             height: 22px;
+             width: 115px;
+         }
+         .auto-style3 {
+             height: 22px;
+             width: 115px;
+         }
+         .auto-style4 {
+             height: 22px;
+             width: 115px;
+         }
+         .auto-style5 {
+             height: 22px;
+             width: 115px;
+         }
+         .auto-style6 {
+             width: 1265px;
+         }
+         .auto-style8 {
+             text-align: justify;
+         }
+         .auto-style11 {
+             width: 354px;
+             height: 139px;
+         }
+         </style>
+<title>TipTop Website</title>
+  
+    
+        <div class="auto-style8">
+            <FONT Size="48" Color="Dark Gray" >
+            <center>
+                <img alt="" class="auto-style11" src="Imgs/Logo%20Aug%202010%20copy%20-%20resize%20colour.jpg" />TipTop-Photographers©</FONT><br />
+            </center>
+
+         <hr />
+                 <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <br />
+
+    <table class="auto-style6">
+        <tr>
+            <td class="auto-style2"><a href="Home.aspx"><h3>
+                <img src="Imgs/home.png" style="height: 71px; width: 75px" /></h3>
+                <h3>
+                    Home</h3></a></td>
+            <td class="auto-style2"><a href="AboutUs.aspx"><h3>
+                <img src="Imgs/About US.png" style="height: 75px; width: 75px" />About</h3></a></td>
+            <td class="auto-style3"><a href="Reservation.aspx"><h3>
+                <img src="Imgs/Find.png" style="height: 77px; width: 78px" />Reservation</h3></a></td>
+            <td class="auto-style4"><a href="ContactUs.aspx">
+                <h3>
+                    <img src="Imgs/if_icon-person-add_211872.png" style="height: 74px; width: 75px" />Contact</h3>
+                </a></td>
+            <td class="auto-style5"><a href ="Login.aspx"><h3>
+                <img src="Imgs/Login.png" style="height: 73px; width: 75px" />Login</h3></a></td>
+
+
+        </tr>
+    </table>
+</head>
+     <body background="Imgs/VistorBackg.png" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+          
+                <div style="text-align: center">
+                    <p>
+                        <br />
+                    </p>
+              
+
+                </div>
+        </asp:ContentPlaceHolder>
+  
+        </div>
+                    </form>
+
+</body>
+</html>

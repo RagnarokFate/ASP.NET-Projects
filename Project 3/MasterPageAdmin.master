@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admins Of PlanePlusHotel</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 308px;
+            height: 163px;
+        }
+        .auto-style3 {
+            width: 969px;
+            font-size: 48pt;
+        }
+    </style>
+    </head>
+
+        <form id="form1" runat="server">
+
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style3"><strong>Plane Plus Hotel</strong></td>
+            <td>
+                <img class="auto-style2" src="photos/PlanePlusHotelLogo.png" /></td>
+        </tr>
+    </table>
+    <br />
+    <BR />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+<br />
+
+
+    <table class="auto-style1">
+        <tr>
+            <td><a href="HomeAdmin.aspx">HomeAdmin</a></td>
+            <td><a href="AddPlane.aspx">AddPlane</a></td>
+            <td><a href="AddHotel.aspx">AddHotel</a></td>
+            <td><a href="ContactInfo.aspx">ContactInfo</a></td>
+            <td><a href="AccountsMangement.aspx">AccountsMangement</a></td>
+            <td>
+                <asp:ImageButton ID="ImageButton1" runat="server" Height="56px" ImageUrl="~/photos/logout.jpg" Width="143px" OnClick="ImageButton1_Click" />
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+             <br />
+        <br />
+
+    </form>
+    <body>
+            <div>
+            </div>
+</body>
+</html>

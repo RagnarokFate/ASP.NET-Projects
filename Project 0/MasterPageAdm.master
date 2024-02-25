@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdm.master.cs" Inherits="MasterPageAdm" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"></head>
+
+    <title>STMPD RCRDS Website Offical </title>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+        }
+        .auto-style2 {
+            font-size: large;
+        }
+        .auto-style3 {
+            width: 100%;
+        }
+        .auto-style4 {
+            width: 135px;
+            height: 113px;
+            color: #FFFFFF;
+        }
+        .auto-style5 {
+            width: 100%;
+            height: 0px;
+        }
+        .auto-style6 {
+            color: #FFFFFF;
+        }
+        .auto-style7 {
+            font-size: xx-large;
+            color: #FFFFFF;
+        }
+        .auto-style8 {
+            color: #FEFFFF;
+        }
+        </style>
+
+        <table class="auto-style5">
+            <tr>
+                <td>
+                    <br class="auto-style6" />
+    <strong>
+    <span class="auto-style1"><span class="auto-style6">Base Of Admins Accounts!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br class="auto-style6" />
+                    </span></strong></td>
+                <td>
+    <strong>
+    <span class="auto-style7">&nbsp;</span><span class="auto-style2"><span class="auto-style6">Wellcome Admin
+    </span>
+    <asp:Label ID="Label1" runat="server" Text="AdminUserName" CssClass="auto-style6"></asp:Label>
+    </span></strong></td>
+                <td>
+                    <img class="auto-style4" src="Djs%20full%20sets%20pictures/AdminWellCome.jpg" /></td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <form id="form1" runat="server">
+        <table class="auto-style3">
+            <tr>
+                <td class="auto-style8"><a href="HomeAdm.aspx"><span class="auto-style8">Home</span></a></td>
+                <td><a href="InsertProduct.aspx"><span class="auto-style8">Production Mangement</span></a></td>
+                <td><a href="AccountsMang.aspx"><span class="auto-style8">Accounts Manger</span></a></td>
+                <td><a href="HomeAdm.aspx#MessageBox"><span class="auto-style8">Contact Box</span></a></td>
+                <td><a href="AccountSettingsAdm.aspx"><span class="auto-style8">Account Setting</span></a></td>
+                <td>
+                    <asp:Button ID="Button1" runat="server" Text="SignOut" OnClick="Button1_Click"  />
+     
+                    </td>
+            </tr>
+        </table>
+
+<body background=Djs%20full%20sets%20pictures/AdminWall.jpg>
+        <div>
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <p>
+            &nbsp;</p>
+</body>
+         </form>
+</html>

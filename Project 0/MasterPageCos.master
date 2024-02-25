@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCos.master.cs" Inherits="MasterPageCos" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <form id="form1" runat="server" >
+  
+<head runat="server">
+     <title>STMPD RCRDS Offical Website</title>
+   
+    <style type="text/css">
+
+        .auto-style5 {
+            width: 100%;
+        }
+        .auto-style9 {
+            width: 286px;
+            height: 176px;
+        }
+        .auto-style10 {
+            color: #FFFFFF;
+        }
+        .auto-style12 {
+            width: 52px;
+            height: 52px;
+            color: #0099FF;
+        }
+        .auto-style13 {
+            width: 100%;
+            background-image: url('Djs%20full%20sets%20pictures/noise.jpg');
+        }
+        .auto-style14 {
+            color: #0099FF;
+        }
+        .auto-style15 {
+            width: 49px;
+            height: 47px;
+            color: #0099FF;
+        }
+        .auto-style17 {
+            color: #0099FF;
+            font-size: 32pt;
+        }
+        .auto-style18 {
+            color: #FFFFFF;
+            width: 76px;
+        }
+       
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+        .auto-style19 {
+            width: 114px;
+            font-size: xx-large;
+        }
+    </style>
+       
+</head>
+<body background="Djs%20full%20sets%20pictures/CustomerWall.jpg" > 
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="HomeCos.Aspx"><img src="Djs%20full%20sets%20pictures/HomeIcon.png" class="auto-style14" /><br class="auto-style14" />
+                    <span class="auto-style14">Home</span></a>
+<a href="MailTheAdmin.aspx">
+                    <img src="Djs%20full%20sets%20pictures/ContactIcon.png" class="auto-style12" /><br class="auto-style14" /> <span class="auto-style14">Chat With Mangement© 
+
+                        <a href="Playlist.aspx">
+                    <img src="Djs%20full%20sets%20pictures/RegisterIcon.png" class="auto-style14" /><br class="auto-style14" /> <span class="auto-style14">STMPD RCRDS Movement </span> </a>
+
+<a href="ReserveBuy.Aspx">
+                    <img class="auto-style14" src="Djs%20full%20sets%20pictures/Reservation%20Icon.png" /><br class="auto-style14" />
+                    <strong><span class="auto-style14">Reservation & Buy</span></strong></a>
+
+ <a href="AccountSettingsCos.Aspx"><img class="auto-style15" src="Djs%20full%20sets%20pictures/SettingsIcon.png" /><br class="auto-style14" />
+                    <strong><span class="auto-style14">Account Settings</span></strong></a>
+<a href="Login.Aspx">
+                    <asp:Button ID="Button1" runat="server" Text="SignOut" OnClick="Button1_Click" />
+     </a>
+                    
+
+                        </span>
+
+</div>
+    <table class="auto-style13">
+        <tr>
+            <td>
+    <table class="auto-style5">
+        <tr>
+            <td class="auto-style18">
+                <div id="main" class="auto-style19">
+                    <span onclick="openNav()" style="font-size:30px;cursor:pointer">☰ </span>
+                    <span onclick="openNav()" style="cursor:pointer">Menu</span>
+                </div>
+            </td>
+            <td class="auto-style10">
+    <strong><span class="auto-style17">STMPD RCRDS Offical Website&nbsp;</span>
+        </strong>
+            </td>
+            <td>
+                <img class="auto-style9" src="Djs%20full%20sets%20pictures/CostPhoto.jpg" /></td>
+        </tr>
+    </table>
+
+            </td>
+        </tr>
+    </table>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+</script>
+     
+    </body>
+    <BR />
+     <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+        <hr />
+        <br />
+        
+    <div>
+        <br />
+       
+        <table class="auto-style5">
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</td>
+            </tr>
+        </table>
+       
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       
+    <br />
+    </div>
+        </form>
+</html>

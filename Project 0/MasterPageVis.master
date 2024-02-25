@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageVis.master.cs" Inherits="MasterPageVis" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" >
+    <title>STMPD RCRDS Offical Website</title>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            width: 91%;
+            height: 73px;
+        }
+        .auto-style4 {
+            width: 214px;
+            height: 103px;
+            color: #FEFFFF;
+        }
+        .auto-style6 {
+            width: 48px;
+            height: 48px;
+            color: #993300;
+        }
+        .auto-style9 {
+            width: 1361px;
+        }
+        .auto-style11 {
+            color: #FEFFFF;
+        }
+        .auto-style12 {
+            color: #993300;
+            font-weight: bold;
+        }
+        .auto-style14 {
+            color: #993300;
+        }
+        .auto-style15 {
+            width: 100%;
+        }
+        .auto-style16 {
+            color: #993300;
+            width: 48px;
+            height: 58px;
+        }
+        .auto-style17 {
+            width: 100%;
+            background-image: url('Djs%20full%20sets%20pictures/noise-fallback.jpg');
+        }
+        </style>
+    <div class="auto-style1">
+
+        <table class="auto-style17">
+            <tr>
+                <td>
+        <table class="auto-style15">
+            <tr>
+                <td>
+                    <Font Size="82" ><strong><span class="auto-style14">STMPD RCRDS Offical Website</span></strong></Font>
+                   
+                        </td>
+                <td>
+    <Font Size="82" ><strong> <img src="Djs%20full%20sets%20pictures/LogoPage.JPG" class="auto-style4" /></strong></Font></td>
+            </tr>
+        </table>
+                    <br />
+            <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+                    <br />
+
+        <table class="auto-style2">
+            <tr>
+                <font size="36">
+                <td class="auto-style14"><a href="Home.Aspx"><strong><img src="Djs%20full%20sets%20pictures/HomeIcon.png" class="auto-style16" /><br class="auto-style14" />
+                    <span class="auto-style14">Home</span></strong></a></td>
+                <td>
+                   <a href="About.Aspx"> <img class="auto-style6" src="Djs%20full%20sets%20pictures/AboutIcon.png" /><br class="auto-style14" />
+                    <span class="auto-style12">About</span></a><span class="auto-style12"> </span> </td>
+                <td>
+                 <a href="ReserveBuy.aspx">   <img class="auto-style6" src="Djs%20full%20sets%20pictures/Reservation%20Icon.png" /><br class="auto-style14" />
+                    <strong><span class="auto-style14">Reservation</span></strong></a></td>
+                <td>
+                    <a href="Contact.Aspx"><img class="auto-style6" src="Djs%20full%20sets%20pictures/ContactIcon.png" /><br class="auto-style14" />
+                    <strong><span class="auto-style14">Contact</span></strong></a></td>
+                <td>
+                 <a href="Register.Aspx">   <img class="auto-style6" src="Djs%20full%20sets%20pictures/RegisterIcon.png" /><br class="auto-style14" />
+                    <strong><span class="auto-style14">Register</span></strong></a></td>
+                <td>
+                    <a href="Login.Aspx"><img class="auto-style6" src="Djs%20full%20sets%20pictures/LoginIcon.png" /><br class="auto-style14" />
+                    <strong><span class="auto-style14">Login</span></strong></a></td>
+            </font>
+                    </tr>
+        </table>
+        <br class="auto-style11" />
+
+        <hr class="auto-style9"  width ="1361px" />
+                </td>
+            </tr>
+        </table>
+        <br class="auto-style11" />
+
+        <hr class="auto-style9"  width ="1361px" />
+    </div>
+
+
+</head>
+    <body BackGround="Djs%20full%20sets%20pictures/VistorWall.jpg" />
+
+        <form id="form1" runat="server">
+          
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+       
+        </form>
+    </body>
+</html>
